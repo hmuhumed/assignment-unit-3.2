@@ -66,8 +66,17 @@ while (i<stars.length){
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
-
+let index = 0
+while (index<=5){
+  console.log(index)
+  index++
+};
 
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
+let highest = 10
+while (5<=highest){
+  console.log(highest)
+  highest--
+};
