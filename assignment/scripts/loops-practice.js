@@ -54,6 +54,11 @@ console.log('---- 3. While loop ----');
 
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
 console.log('Good stars:');
+let i = 0 
+while (i<stars.length){
+  console.log(stars[i])
+  i++
+};
 
 // Changed the string 'Some stars' to 'Good stars' so I don't get confused on which loop it is I'm working on. 
 
